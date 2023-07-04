@@ -1,0 +1,63 @@
+
+
+.nav_main{
+    background-color: rgb(248, 248, 248);
+    height: 7vh;
+    font-size: 1.2vw;
+    width: 83vw;
+    margin: auto;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 3vh;
+    box-shadow: 5px 5px 5px 0px #D1D1D1;
+    transition: ease-in 0.15s;
+}
+.nav_main:hover{
+    
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px 0px #8b8b8b;
+}
+.nav_head{
+    color:#273b98;
+    font-weight: 600;
+    font-family: 'Mali';
+    font-size: 1.5vw;
+    margin-left: 1vw;
+}
+.nav_main a{
+    color:#273b98;
+    font-weight: 600;
+    margin-left: 1vw;
+    align-items: center;
+}
+.nav_main a:hover{
+    color:#5a88e8;
+}
+.nav_main a:last-child{
+    font-weight: 800;
+    text-decoration: underline;
+}
+.Nav_c{
+    display: flex;
+    justify-content: end;
+}
+.nav_link{
+    color: #273b98;
+}
+@media(max-width:1200px){
+    .nav_head{
+        color:#273b98;
+        font-weight: 600;
+        font-size: 2vw;
+        margin-left: 1vw;
+    }
+}
+@media(max-width:800px){
+    .nav_head{
+        color:#273b98;
+        font-weight: 600;
+        font-size: 3vw;
+        margin-left: 1vw;
+    }
+}

@@ -1,0 +1,29 @@
+
+.face__text{
+    position: absolute;
+    left: 10vw;
+    text-align: left;
+    width: 30vw;
+    top: 15vh;
+}
+.face__head{
+    font-size: 3rem;
+    color: #273b98;
+    margin-bottom: 1vw;
+    display: inline-block;
+}
+.face__para{
+    font-size: 1.2rem;
+}
+@media(max-width:800px){
+    .face__para{
+        display: none;
+        
+    }
+    .face__head{
+        font-size: 25px;
+    }
+    .face__div img{
+        display: none;
+    }
+}

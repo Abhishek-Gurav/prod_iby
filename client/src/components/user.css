@@ -1,0 +1,77 @@
+.landing_img{
+    width: 40vw;
+    height: fit-content;
+}
+.hero_head{
+    font-family: 'Mali';
+    font-size: 4rem;
+    color: #273b98;
+    margin-bottom: 3vw;
+    display: inline-block;
+}
+.hero_para{
+    font-size: 1.5rem;
+    margin-bottom: 3vw;
+}
+.btn_container{
+    margin-top: 3vw;
+}
+.btn_container :nth-child(2){
+    margin-left: 2vw;
+}
+.user{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    min-height: 90vh;
+    padding-left: 10vw;
+}
+.user__text{
+    text-align: left;
+}
+
+@media(max-width:750px){
+    .user{
+        width: auto;
+        height: 90vh;
+        background: none;
+    }
+    .user__text{
+        text-align: center;
+    }
+}
+@media(max-width:800px){
+    .user{
+        width: auto;
+        height: 90vh;
+        background: none;
+        background-size: cover;
+    }
+    .user__text{
+        text-align: center;
+    }
+    .landing_img{
+        display: none;
+    }
+    .hero_head{
+        font-size: 3rem;
+        color: #273b98;
+        margin-bottom: 8vw;
+        display: inline-block;
+    }
+    .btn_container{
+        margin-top: 8vw;
+    }
+
+}
+@media(max-width:500px){
+    .hero_head{
+        font-size: 2.5rem;
+        color: #273b98;
+        margin-bottom: 8vw;
+        display: inline-block;
+    }
+    .hero_para{
+        font-size: 1rem;
+    }
+}

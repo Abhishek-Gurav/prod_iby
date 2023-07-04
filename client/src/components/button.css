@@ -1,0 +1,21 @@
+.btn_hero:hover{
+    background-color: #273b98 !important;
+    color: white !important;
+    border: #273b98 3px solid !important;
+}
+.btn_hero{
+    background-color: transparent !important;
+    margin-left: 2vw;
+    border: #273b98 3px solid !important;
+    color: #273b98 !important;
+}
+.btn_hero1{
+    background-color: #273b98 !important;
+    color: white !important;
+    border: #273b98 3px solid !important;
+}
+.btn_hero1:hover{
+    background-color: transparent !important;
+    color: #273b98 !important;
+    border: #273b98 3px solid !important;
+}

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.44596938.css",
+    "main.js": "/static/js/main.edd76640.js",
+    "static/media/Tattoo.png": "/static/media/Tattoo.865ff9182a0f9a55dba3.png",
+    "static/media/Selfie.png": "/static/media/Selfie.1fa482d65e99fdfec2f6.png",
+    "static/media/Ghostmask.png": "/static/media/Ghostmask.8e82fe31880825f0c7af.png",
+    "static/media/Logo.jpeg": "/static/media/Logo.4d1913e7bd25f72c5d8a.jpeg",
+    "static/media/Lipstick.png": "/static/media/Lipstick.c6531a4e83b3076be3ec.png",
+    "static/media/background.webp": "/static/media/background.7ff9b9d63d1c5ea494f6.webp",
+    "index.html": "/index.html",
+    "main.44596938.css.map": "/static/css/main.44596938.css.map",
+    "main.edd76640.js.map": "/static/js/main.edd76640.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44596938.css",
+    "static/js/main.edd76640.js"
+  ]
+}
