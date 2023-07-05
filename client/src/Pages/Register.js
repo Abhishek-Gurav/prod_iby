@@ -16,7 +16,7 @@ export default function SignUp (props) {
   const handleSubmit = e => {
     e.preventDefault();
     const { username, email, password } = user;
-    fetch("http://localhost:4000/user/register-user", {
+    fetch("https://iby-project.onrender.com/user/register-user", {
       mode: "no-cors",
       method: "POST",
       crossDomain: true,
