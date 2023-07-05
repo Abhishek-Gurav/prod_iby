@@ -22,7 +22,7 @@ export default function SignUp (props) {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
-        "Access-Control-Allow-Origin": "https://iby-project.onrender.com",
+        "Access-Control-Allow-Origin": "*",
       },
       body: JSON.stringify({
         username,
