@@ -12,7 +12,7 @@ export default function UserDetails(props) {
     if (!tok) {
       setToken(false);
     }
-    fetch("http://localhost:4000/user/userDetails", {
+    fetch("https://iby-project.onrender.com/user/userDetails", {
       method: "POST",
       crossDomain: true,
       headers: {
