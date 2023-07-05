@@ -21,7 +21,7 @@ function TextAnalyzer() {
     if (text !== "") {
       setSubmitted(true);
       setLoading(true);
-      fetch("http://localhost:4000/api/sentiment", {
+      fetch("https://iby-project.onrender.com/api/sentiment", {
         method: "POST",
         crossDomain: true,
         headers: {
