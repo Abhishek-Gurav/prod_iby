@@ -16,6 +16,7 @@ export default function Login(props) {
     e.preventDefault();
     const { email, password } = user;
     fetch("http://localhost:4000/user/login-user", {
+      mode : "no-cors",
       method: "POST",
       crossDomain: true,
       headers: {
