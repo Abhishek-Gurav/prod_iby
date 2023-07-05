@@ -17,12 +17,13 @@ export default function SignUp (props) {
     e.preventDefault();
     const { username, email, password } = user;
     fetch("http://localhost:4000/user/register-user", {
+      mode: "no-cors",
       method: "POST",
       crossDomain: true,
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
-        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Origin": "https://iby-project.onrender.com/",
       },
       body: JSON.stringify({
         username,
