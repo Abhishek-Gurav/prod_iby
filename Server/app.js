@@ -1,7 +1,6 @@
 const express = require('express');
 const {config} = require('dotenv');
-const path = require('path');
-const __dirname = path.resolve();
+const path = require('path')
 const cors = require('cors');
 const app = express();
 require('./model/user');
