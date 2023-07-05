@@ -22,7 +22,7 @@ export default function Login(props) {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
-        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Origin": "https://iby-project.onrender.com/",
       },
       body: JSON.stringify({
         email,
