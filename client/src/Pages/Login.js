@@ -15,14 +15,13 @@ export default function Login(props) {
   const handleSubmit = (e) => {
     e.preventDefault();
     const { email, password } = user;
-    fetch("http://localhost:4000/user/login-user", {
-      mode : "no-cors",
+    fetch("https://iby-project.onrender.com/user/login-user", {
       method: "POST",
       crossDomain: true,
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
-        "Access-Control-Allow-Origin": "https://iby-project.onrender.com/",
+        "Access-Control-Allow-Origin": "*",
       },
       body: JSON.stringify({
         email,
