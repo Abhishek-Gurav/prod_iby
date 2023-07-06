@@ -1,10 +1,9 @@
 
 .face__text{
-    position: absolute;
-    left: 10vw;
+    position: relative;
     text-align: left;
     width: 30vw;
-    top: 15vh;
+    margin-top: 10vh;
 }
 .face__head{
     font-size: 3rem;
@@ -15,10 +14,18 @@
 .face__para{
     font-size: 1.2rem;
 }
-@media(max-width:800px){
-    .face__para{
-        display: none;
-        
+@media(max-width:992px){
+    .face_c{
+        width: 80vw;
+    }
+    .face_w{
+        width: 80vw;
+    }
+    .face__text{
+        position: relative;
+        text-align: center;
+        width: 100vw;
+        margin-top: 10vh;
     }
     .face__head{
         font-size: 25px;
