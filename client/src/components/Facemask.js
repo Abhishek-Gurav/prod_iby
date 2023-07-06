@@ -102,8 +102,6 @@ function Facemask() {
         winHeight: window.innerHeight,
       });
     };
-    if (windowDimention.winWidth < 992) document.body.style.overflow = "hidden";
-    if (windowDimention.winWidth >= 992) document.body.style.overflow = "scrolls";
     if (windowDimention.winWidth < 992) {
       setTab(true);
     } else {
@@ -156,7 +154,7 @@ function Facemask() {
             marginRight: "auto",
             textAlign: "center",
             zindex: 9,
-            marginTop: "10vh",
+            marginTop: isTab ? "5vh" : "10vh",
             width: isTab ? "80vw" : "45vw",
             height: "auto",
             borderRadius: "10%",
@@ -172,7 +170,7 @@ function Facemask() {
             right: isTab ? "0vw" : "0vw",
             textAlign: "center",
             zindex: 9,
-            marginTop: "10vh",
+            marginTop: isTab ? "5vh" : "10vh",
             width: isTab ? "80vw" : "45vw",
             height: "auto",
             borderRadius: "10%",
