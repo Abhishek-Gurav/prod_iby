@@ -1,7 +1,6 @@
 import * as cam from "@mediapipe/camera_utils";
 import { Hands } from "@mediapipe/hands";
 import React, { useEffect, useRef, useState } from "react";
-import { isTablet } from "react-device-detect";
 import Webcam from "react-webcam";
 import tattoo from "../Images/Tattoo.png";
 import "./facemask.css";
@@ -63,7 +62,6 @@ function App() {
     }
     canvasCtx.restore();
   }
-  const w = isTablet ? "70vw" : "45vw";
   useEffect(() => {
     // Face mesh
     const hand = new Hands({
