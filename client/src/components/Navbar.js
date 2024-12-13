@@ -47,9 +47,9 @@ function OffcanvasExample() {
                   <Nav.Link className="nav_link" href="/lipstick">
                     Lipstick
                   </Nav.Link>
-                  <Nav.Link className="nav_link" href="/nlp">
-                    Text Analyzer
-                  </Nav.Link>
+                  // <Nav.Link className="nav_link" href="/nlp">
+                  //   Text Analyzer
+                  // </Nav.Link>
                   <Nav.Link className="nav_link" href="/logout">
                     <img
                       src={logout}
