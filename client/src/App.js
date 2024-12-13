@@ -50,7 +50,7 @@ function App() {
 
           {/* Pages */}
 
-          <Route exact path="/nlp" element={<TextAnalyzer />}></Route>
+          // <Route exact path="/nlp" element={<TextAnalyzer />}></Route>
           <Route exact path="/ghostmask" element={<Ghostmask />}></Route>
           <Route exact path="/hand" element={<Hand />}></Route>
           <Route exact path="/lipstick" element={<Lipstick />}></Route>
