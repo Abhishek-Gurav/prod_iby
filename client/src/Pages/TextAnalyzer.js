@@ -69,25 +69,25 @@ function TextAnalyzer() {
           </button>
           {submitted && loading && <Loading />}
         </form>
-        {sentiment.emotion && (
+        {sentiment?.emotion && (
           <div className="card">
             <div>
               <h2>Emotion</h2>
               <p>
-                {sentiment.emotion.emotion} : {sentiment.emotion.score}%
+                {sentiment?.emotion?.emotion} : {sentiment?.emotion?.score}%
               </p>
             </div>
             <div>
               <h2>Intent</h2>
               <p>
-                {sentiment.intent.emotion}: {sentiment.intent.score}%
+                {sentiment?.intent?.emotion}: {sentiment?.intent?.score}%
               </p>
             </div>
           </div>
         )}
         <table>
           <tbody>
-            { sentiment.keywords.length !== 0  && (
+            { sentiment?.keywords?.length !== 0  && (
               <tr>
                 <th>
                   <h2>Keywords</h2>
@@ -97,8 +97,8 @@ function TextAnalyzer() {
                 </th>
               </tr>
             )}
-            { sentiment.keywords.length !== 0  && (
-              sentiment.keywords.map((keyword, key) => {
+            { sentiment?.keywords?.length !== 0  && (
+              sentiment?.keywords?.map((keyword, key) => {
                 return (
                   <tr key={key}>
                     <td>{keyword.keyword}</td>
